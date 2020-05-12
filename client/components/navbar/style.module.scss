@@ -1,0 +1,36 @@
+@import "../defines.scss";
+
+//mobile first design
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8rem;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 10px 8px -8px #ddd;
+
+  @include lg {
+    height: 8rem;
+    justify-content: flex-start;
+    padding: 0 5rem;
+  }
+}
+
+.navitem {
+  width: 17rem;
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include lg {
+    height: 7rem;
+  }
+
+  img {
+    height: 3.6rem;
+  }
+}
+
+
